@@ -11,7 +11,7 @@ document.getElementById("login-btn").addEventListener("click", function () {
 
   if (contactNumber == "01722631957" && pin == "1234") {
     alert("Login Successfull");
-    window.location.assign('/home.html')
+    window.location.assign('home.html')
   }
    else {
     alert("Invalid");
