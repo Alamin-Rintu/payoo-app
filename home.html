@@ -69,12 +69,18 @@
         </p>
         <div class="grid grid-cols-3 gap-3">
           <!-- 1st -->
-          <button onclick="showOnly('add-money')" class="btn flex flex-col h-full py-4 btn-soft rounded-xl">
+          <button
+            onclick="showOnly('add-money')"
+            class="btn flex flex-col h-full py-4 btn-soft rounded-xl"
+          >
             <img src="assets/opt-1.png" alt="" />
             <p>Add Money</p>
           </button>
           <!-- 2nd -->
-          <button onclick="showOnly('cashout')" class="btn flex flex-col h-full py-4 btn-soft rounded-xl">
+          <button
+            onclick="showOnly('cashout')"
+            class="btn flex flex-col h-full py-4 btn-soft rounded-xl"
+          >
             <img src="assets/opt-2.png" alt="" />
             <p>Cashout</p>
           </button>
@@ -112,7 +118,10 @@
               <label class="label font-medium text-[#080808] text-[16px]"
                 >Select A Bank</label
               >
-              <select id="add-money-bank" class="select rounded-full w-full bg-[#F4F5F7]">
+              <select
+                id="add-money-bank"
+                class="select rounded-full w-full bg-[#F4F5F7]"
+              >
                 <option disabled selected>Select Bank</option>
                 <option value="DBBL">DBBL</option>
                 <option value="IFIC">IFIC</option>
@@ -135,7 +144,6 @@
               >
               <input
                 id="add-money-amount"
-                
                 type="number"
                 class="input rounded-full w-full bg-[#F4F5F7]"
                 placeholder="Add Amount to withdraw"
@@ -207,6 +215,15 @@
               </button>
             </fieldset>
           </div>
+        </div>
+      </section>
+      <!-- history -->
+      <section id="history" class="w-11/12 mx-auto py-5 space-y-5">
+        <h2 class="text-[18px] font-semibold text-[##080808e6] mb-4">
+          Latest Payment
+        </h2>
+        <div id="history-container">
+
         </div>
       </section>
     </div>
